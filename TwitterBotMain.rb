@@ -26,6 +26,7 @@ end
 
 bot = TwitterBot.new
 
+while 1
 
   paginated_response = RedditKit.front_page
 
@@ -35,4 +36,8 @@ bot = TwitterBot.new
     bot.update_twitter(tweet)
     #bot.update_twitter(link.title, link.url.nil? ? " ": link)
   end
+
+  sleep(60*60*4)
+
+end
 
