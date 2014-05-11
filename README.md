@@ -3,6 +3,7 @@ Twitter Bot
 
 A twitter bot that posts to @AppleJuiceTeach.
 
+#####Check it out [here!](https://twitter.com/AppleJuiceTeach)
 
 
 
