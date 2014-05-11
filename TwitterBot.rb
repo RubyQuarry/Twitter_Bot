@@ -1,6 +1,6 @@
 require 'twitter'
 require_relative 'Tweet'
-require_relative 'RESTClientInformation' #private twitter information
+require_relative 'RESTClientInformation' #private twitter information change to rest_client.rb for your needs.
 
 
 
