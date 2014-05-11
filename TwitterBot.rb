@@ -13,6 +13,11 @@ class TwitterBot
     @tweets = []
   end
 
+
+  def update_twitter(text)
+    @client.update(text)
+  end
+
   def find_tweets
     @favoriteTweeters.each do |tweeter|
       client.search("from:#{tweeter}",{ :lang =>"en", :result_type => "recent" }).take(10).each do |tweet|
@@ -33,6 +38,3 @@ class TwitterBot
   end
 
 end
-
-
-TwitterBot.new.find_trends
